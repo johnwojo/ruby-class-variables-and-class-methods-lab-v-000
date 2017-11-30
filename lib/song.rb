@@ -31,9 +31,9 @@ class Song
         if genre_list["#{target}"] == nil
           genre_list["#{target}"] = 1
 
-        else
-          genre_list.each do |meow,number|
-            genre_list[:meow] = number
+        elsif
+          genre_list["#{target}"] == 1
+            genre_list["#{target}"] == 2
       end
       end
     end
