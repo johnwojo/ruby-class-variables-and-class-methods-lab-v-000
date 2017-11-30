@@ -35,7 +35,6 @@ class Song
           genre_list["#{target}"] == 1
           genre_list["#{target}"] == 2
       end
-      end
     end
     genre_list
   end
