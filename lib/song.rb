@@ -28,11 +28,11 @@ class Song
     def self.genre_count
       genre_list = {}
       @@genres.each do |target|
-        if genre_list["#{target}"] == nil
-          genre_list["#{target}"] = 1
+        if genre_list[target] == nil
+          genre_list[target] = 1
 
-        elsif genre_list["#{target}"] == 1
-          genre_list["#{target}"] += 1
+        elsif genre_list[target] == 1
+          genre_list[target] += 1
         end
       end
       genre_list
