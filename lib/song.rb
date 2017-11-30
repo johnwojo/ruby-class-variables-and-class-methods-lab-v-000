@@ -31,12 +31,11 @@ class Song
         if genre_list["#{target}"] == nil
           genre_list["#{target}"] = 1
 
-        elsif
-          genre_list["#{target}"] == 1
+        elsif genre_list["#{target}"] == 1
           genre_list["#{target}"] += 1
+        end
       end
+      genre_list
     end
-    genre_list
-  end
 
 end
