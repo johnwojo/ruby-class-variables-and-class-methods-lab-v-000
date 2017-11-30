@@ -33,7 +33,7 @@ class Song
 
         elsif
           genre_list["#{target}"] == 1
-          genre_list["#{target}"] == 2
+          genre_list["#{target}"] = 2
       end
     end
     genre_list
